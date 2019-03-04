@@ -1,5 +1,5 @@
 # Colorschemes for vim
 
-## Documentation inspired theme
+## foo-mrrobot
 ![mrrobot](https://raw.githubusercontent.com/victorze/foo/master/img/mrrobot.png)
 
