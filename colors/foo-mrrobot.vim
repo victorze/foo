@@ -30,7 +30,7 @@ let s:bg = '#121212'
 
 " Colors base
 let s:primary       =   '#afff87'
-let s:secondary     =   ''
+let s:secondary     =   '#262626'
 
 let s:source        =   '#bcbcbc'
 let s:keyword       =   s:primary
@@ -82,9 +82,9 @@ call s:hi('Error', s:primary, s:bg, s:underline)
 call s:hi('Todo', s:primary, s:bg, s:none)
 
 call s:hi('Directory', 'White', s:bg, s:none)
-call s:hi('CursorLine', s:primary, s:bg, s:none)
+call s:hi('CursorLine', s:primary, s:secondary, s:none)
 call s:hi('MatchParen', 'White', s:bg, s:none)
-call s:hi('ColorColumn', s:primary, '#262626', s:none)
+call s:hi('ColorColumn', s:primary, s:secondary, s:none)
 
 
 " Interface highlighting
@@ -95,7 +95,7 @@ call s:hi('iCursor', s:none, s:bg, s:none)
 call s:hi('LineNr', s:comment, s:bg, s:none)
 call s:hi('NonText', s:comment, s:bg, s:none)
 call s:hi('CursorLineNr', s:source, s:bg, s:none)
-call s:hi('VertSplit', '#262626', s:bg, s:none)
+call s:hi('VertSplit', s:secondary, s:bg, s:none)
 
 
 " Git Gutter
@@ -126,3 +126,7 @@ call s:hi('NERDTreeOpenable', s:primary, s:bg, s:none)
 hi CursorLine cterm=none
 hi Identifier cterm=none
 
+if has("gui_win32")
+    call s:hi('CursorLine', s:source, s:secondary, s:none)
+    call s:hi('Cursor', s:none, s:primary, s:none)
+endif
