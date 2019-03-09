@@ -113,6 +113,29 @@ call s:hi('pythonDecoratorName', s:scalar, s:bg, s:italic)
 call s:hi('pythonDecorator', s:scalar, s:bg, s:italic)
 
 
+" PHP
+call s:hi('phpDefine', s:primary, s:bg, s:italic)
+call s:hi('phpIdentifier', s:source, s:bg, s:italic)
+
+
+" Javascript
+call s:hi('javaScriptNull', s:scalar, s:bg, s:italic)
+call s:hi('javaScriptBraces', s:source, s:bg, s:italic)
+call s:hi('javaScriptNumber', s:scalar, s:bg, s:italic)
+
+
+" CSS
+call s:hi('cssProp', s:source, s:bg, s:italic)
+call s:hi('cssBraces', s:source, s:bg, s:italic)
+
+
+" Ruby
+call s:hi('rubyModule', s:primary, s:bg, s:italic)
+call s:hi('rubyDefine', s:primary, s:bg, s:italic)
+call s:hi('rubyClass', s:primary, s:bg, s:italic)
+call s:hi('rubyFunction', s:source, s:bg, s:italic)
+
+
 " Vimscript syntax highlighting
 call s:hi('vimOption', s:source, s:bg, s:none)
 
