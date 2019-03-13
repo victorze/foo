@@ -33,7 +33,7 @@ let s:primary       =   '#9966b8'
 let s:secondary     =   '#225588'
 
 let s:source        =   '#bbbbbb'
-let s:keyword       =   s:secondary
+let s:keyword       =   s:primary
 let s:structure     =   s:primary
 let s:scalar        =   '#f280d0'
 let s:string        =   '#22aa44'
