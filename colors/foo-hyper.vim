@@ -151,7 +151,7 @@ hi CursorLine cterm=none
 hi Identifier cterm=none
 
 if has("gui_win32")
-    call s:hi('CursorLine', s:source, s:secondary, s:none)
-    call s:hi('Cursor', s:none, s:primary, s:none)
+    call s:hi('CursorLine', s:source, '#1a1a1a', s:none)
+    call s:hi('Cursor', s:source, s:primary, s:none)
 endif
 
