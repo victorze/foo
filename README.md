@@ -10,6 +10,22 @@
 ![mrrobot](https://raw.githubusercontent.com/victorze/foo/master/img/foo-mrrobot.png)
 
 
+## Installation
+1. Move foo-abyss.vim, foo-hyper.vim and foo-mrrobot.vim to your .vim/colors
+or install with [Plug](https://github.com/junegunn/vim-plug):
+
+```vim
+Plug 'victorze/foo'
+```
+
+2. Add the following to your .vimrc:
+
+```vim
+syntax enable
+set background=dark
+colorscheme foo-abyss
+```
+
 ## Airline
 
 ```vim
