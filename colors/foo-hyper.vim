@@ -112,6 +112,11 @@ call s:hi('pythonFunction', '#52adf2', s:bg, s:none)
 call s:hi('pythonBuiltin', '#2bbac5', s:bg, s:italic)
 call s:hi('pythonDecoratorName', s:scalar, s:bg, s:italic)
 call s:hi('pythonDecorator', s:scalar, s:bg, s:italic)
+call s:hi('jinjaStatement', s:scalar, s:bg, s:none)
+call s:hi('jinjaTagDelim', s:scalar, s:bg, s:none)
+call s:hi('jinjaBlockName', s:source, s:bg, s:none)
+call s:hi('jinjaVariable', s:source, s:bg, s:none)
+call s:hi('jinjaString', s:string, s:bg, s:none)
 
 
 " PHP
