@@ -32,6 +32,19 @@ colorscheme foo-abyss
 let g:airline_theme='distinguished'
 ```
 
+## Sintax template
+
+- jinja2 and django template install plugin:
+
+```vim
+Plug 'Glench/Vim-Jinja2-Syntax'
+```
+
+- Blade template (Laravel) install plugin
+```vim
+Plug 'jwalton512/vim-blade'
+```
+
 License
 ---
 MIT
