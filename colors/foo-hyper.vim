@@ -117,12 +117,17 @@ call s:hi('pythonDecorator', s:scalar, s:bg, s:italic)
 " PHP
 call s:hi('phpDefine', s:primary, s:bg, s:italic)
 call s:hi('phpIdentifier', s:source, s:bg, s:italic)
+call s:hi('bladeKeyword', s:scalar, s:bg, s:none)
 
 
 " Javascript
 call s:hi('javaScriptNull', s:scalar, s:bg, s:italic)
 call s:hi('javaScriptBraces', s:source, s:bg, s:italic)
 call s:hi('javaScriptNumber', s:scalar, s:bg, s:italic)
+
+
+" HTML
+call s:hi('htmlTagName', s:primary, s:bg, s:none)
 
 
 " CSS
