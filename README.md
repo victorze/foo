@@ -32,3 +32,6 @@ colorscheme foo-abyss
 let g:airline_theme='distinguished'
 ```
 
+License
+---
+MIT
