@@ -1,11 +1,18 @@
 # Colorschemes for vim
 
-## foo-abyss
+### foo-abyss
 ![abyss](https://raw.githubusercontent.com/victorze/foo/master/img/foo-abyss.png)
 
-## foo-hyper
+### foo-hyper
 ![hyper](https://raw.githubusercontent.com/victorze/foo/master/img/foo-hyper.png)
 
-## foo-mrrobot
+### foo-mrrobot
 ![mrrobot](https://raw.githubusercontent.com/victorze/foo/master/img/foo-mrrobot.png)
+
+
+## Airline
+
+```vim
+let g:airline_theme='distinguished'
+```
 
