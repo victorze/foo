@@ -128,6 +128,7 @@ call s:hi('javaScriptNumber', s:scalar, s:bg, s:italic)
 
 " HTML
 call s:hi('htmlTagName', s:primary, s:bg, s:none)
+call s:hi('htmlArg', s:source, s:bg, s:none)
 
 
 " CSS
