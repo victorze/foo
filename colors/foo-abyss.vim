@@ -97,6 +97,7 @@ call s:hi('NonText', s:comment, s:bg, s:none)
 call s:hi('CursorLineNr', '#80a2c2', s:bg, s:none)
 call s:hi('VertSplit', '#001a33', s:bg, s:none)
 call s:hi('Title', '#ddbb88', s:bg, s:none)
+call s:hi('Pmenu', s:source '#001a33' s:none)
 
 
 " Git Gutter
