@@ -89,7 +89,7 @@ call s:hi('ColorColumn', s:source, '#1a1a1a', s:none)
 
 " Interface highlighting
 call s:hi('Normal', s:source, s:bg, s:none)
-call s:hi('Visual', s:none, s:comment, s:none)
+call s:hi('Visual', s:none, '#393e46', s:none)
 call s:hi('Cursor', s:none, s:bg, s:none)
 call s:hi('iCursor', s:none, s:bg, s:none)
 call s:hi('LineNr', '#495162', s:bg, s:none)
