@@ -81,7 +81,7 @@ call s:hi('Underlined', s:source, s:bg, s:underline)
 call s:hi('Error', s:primary, s:bg, s:underline)
 call s:hi('Todo', s:primary, s:bg, s:none)
 
-call s:hi('Directory', s:primary, s:bg, s:none)
+call s:hi('Directory', s:string, s:bg, s:none)
 call s:hi('CursorLine', s:none, '#1a1a1a', s:none)
 call s:hi('MatchParen', 'White', s:bg, s:none)
 call s:hi('ColorColumn', s:source, '#1a1a1a', s:none)
@@ -155,9 +155,8 @@ call s:hi('vimOption', s:source, s:bg, s:none)
 
 
 " NERDTree
-call s:hi('NERDTreeClosable', s:primary, s:bg, s:none)
-call s:hi('NERDTreeOpenable', s:primary, s:bg, s:none)
-
+call s:hi('NERDTreeClosable', s:string, s:bg, s:none)
+call s:hi('NERDTreeOpenable', s:string, s:bg, s:none)
 
 " Hacks
 hi CursorLine cterm=none
