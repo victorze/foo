@@ -130,7 +130,7 @@ call s:hi('bladeKeyword', s:scalar, s:bg, s:none)
 call s:hi('javaScriptNull', s:scalar, s:bg, s:italic)
 call s:hi('javaScriptBraces', s:source, s:bg, s:italic)
 call s:hi('javaScriptNumber', s:scalar, s:bg, s:italic)
-
+call s:hi('jsObjectKey', '#ef596f', s:bg, s:italic)
 
 " HTML
 call s:hi('htmlTagName', '#ef596f', s:bg, s:none)
