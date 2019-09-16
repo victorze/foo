@@ -133,9 +133,10 @@ call s:hi('javaScriptNumber', s:scalar, s:bg, s:italic)
 
 
 " HTML
-call s:hi('htmlTagName', s:primary, s:bg, s:none)
-call s:hi('htmlArg', s:source, s:bg, s:none)
-
+call s:hi('htmlTagName', '#ef596f', s:bg, s:none)
+call s:hi('htmlTag', '#aab1c0', s:bg, s:none)
+call s:hi('Identifier', '#aab1c0', s:bg, s:none)
+call s:hi('htmlArg', s:scalar, s:bg, s:none)
 
 " CSS
 call s:hi('cssProp', s:source, s:bg, s:italic)
