@@ -51,13 +51,13 @@ call s:hi('Boolean', s:scalar, s:bg, s:none)
 call s:hi('Float', s:scalar, s:bg, s:none)
 
 call s:hi('Identifier', s:primary, s:bg, s:none)
-call s:hi('Function', s:primary, s:bg, s:none)
+call s:hi('Function', '#52adf2', s:bg, s:none)
 
 call s:hi('Statement', s:secondary, s:bg, s:none)
 call s:hi('Conditional', s:keyword, s:bg, s:none)
 call s:hi('Repeat', s:keyword, s:bg, s:none)
 call s:hi('Label', s:primary, s:bg, s:none)
-call s:hi('Operator', s:primary, s:bg, s:none)
+call s:hi('Operator', s:source, s:bg, s:none)
 call s:hi('Keyword', s:primary, s:bg, s:none)
 call s:hi('Exception', s:primary, s:bg, s:italic)
 
