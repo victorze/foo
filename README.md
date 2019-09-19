@@ -26,13 +26,13 @@ set background=dark
 colorscheme foo-abyss
 ```
 
-## Airline
+## Airline (optional)
 
 ```vim
 let g:airline_theme='distinguished'
 ```
 
-## Sintax template
+## Sintax template (optional)
 
 - jinja2 and django template install plugin:
 
