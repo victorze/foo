@@ -74,7 +74,7 @@ call s:hi('Typedef', s:primary, s:bg, s:none)
 
 call s:hi('Special', s:source, s:bg, s:none)
 call s:hi('SpecialChar', s:primary, s:bg, s:none)
-call s:hi('Delimiter', s:primary, s:bg, s:none)
+call s:hi('Delimiter', s:source, s:bg, s:none)
 call s:hi('SpecialComment', s:comment, s:bg, s:none)
 call s:hi('Debug', s:primary, s:bg, s:none)
 call s:hi('Underlined', s:source, s:bg, s:underline)
