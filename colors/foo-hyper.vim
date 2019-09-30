@@ -38,7 +38,7 @@ let s:structure     =   s:primary
 let s:scalar        =   '#d8985f'
 let s:string        =   '#89ca78'
 
-let s:comment       =   '#5c6370'
+let s:comment       =   '#737c8c'
 
 
 " Syntax highlighting groups
