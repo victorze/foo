@@ -123,7 +123,7 @@ call s:hi('jinjaString', s:string, s:bg, s:none)
 " PHP
 call s:hi('phpDefine', s:primary, s:bg, s:italic)
 call s:hi('phpIdentifier', s:source, s:bg, s:italic)
-call s:hi('bladeKeyword', s:scalar, s:bg, s:none)
+call s:hi('bladeKeyword', s:primary, s:bg, s:none)
 
 
 " Javascript
