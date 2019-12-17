@@ -74,7 +74,7 @@ call s:hi('Error', s:primary, s:bg, s:underline)
 call s:hi('Todo', s:primary, s:bg, s:none)
 
 call s:hi('Directory', s:string, s:bg, s:none)
-call s:hi('CursorLine', s:none, s:primary, s:none)
+call s:hi('CursorLine', s:none, '#e6e6e6', s:none)
 call s:hi('MatchParen', s:source, s:bg, s:bold)
 call s:hi('ColorColumn', s:source, s:comment, s:none)
 
@@ -153,7 +153,7 @@ hi CursorLine cterm=none
 hi Identifier cterm=none
 
 if has("gui_win32")
-    call s:hi('CursorLine', '#ffffff', s:primary, s:none)
+    call s:hi('CursorLine', '#ffffff', s:function, s:none)
     call s:hi('Cursor', '#ffffff', s:primary, s:none)
 endif
 
