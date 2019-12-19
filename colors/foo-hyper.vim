@@ -79,6 +79,7 @@ call s:hi('SpecialComment', s:comment, s:bg, s:none)
 call s:hi('Debug', s:primary, s:bg, s:none)
 call s:hi('Underlined', s:source, s:bg, s:underline)
 call s:hi('Error', s:primary, s:bg, s:underline)
+call s:hi('ErrorMsg', s:primary, s:bg, s:none)
 call s:hi('Todo', s:primary, s:bg, s:none)
 
 call s:hi('Directory', s:string, s:bg, s:none)
