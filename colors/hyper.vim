@@ -4,7 +4,7 @@ if exists('syntax_on')
   syntax reset
 endif
 
-let g:colors_name = 'foo-hyper'
+let g:colors_name = 'hyper'
 set background=dark
 
 

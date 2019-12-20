@@ -1,17 +1,17 @@
 # Colorschemes for vim
 
-### foo-abyss
-![abyss](https://raw.githubusercontent.com/victorze/foo/master/img/foo-abyss.png)
+### github
+![github](https://raw.githubusercontent.com/victorze/foo/master/img/foo-github.png)
 
-### foo-hyper
+### hyper
 ![hyper](https://raw.githubusercontent.com/victorze/foo/master/img/foo-hyper.png)
 
-### foo-mrrobot
-![mrrobot](https://raw.githubusercontent.com/victorze/foo/master/img/foo-mrrobot.png)
+### abyss
+![abyss](https://raw.githubusercontent.com/victorze/foo/master/img/foo-abyss.png)
 
 
 ## Installation
-1. Move foo-abyss.vim, foo-hyper.vim and foo-mrrobot.vim to your .vim/colors
+1. Move github.vim, hyper.vim and abyss.vim to your .vim/colors
 or install with [Plug](https://github.com/junegunn/vim-plug):
 
 ```vim
@@ -22,8 +22,8 @@ Plug 'victorze/foo'
 
 ```vim
 syntax enable
-set background=dark
-colorscheme foo-abyss
+set background=light
+colorscheme github
 ```
 
 ## Airline (optional)
