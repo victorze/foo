@@ -22,9 +22,12 @@ Plug 'victorze/foo'
 
 ```vim
 syntax enable
+"set background=dark " hyper or abyss
 set background=light
 colorscheme github
 ```
+
+Note (for the github theme): If you are running Vim in a terminal you must choose a font that supports bold text.
 
 ## Airline (optional)
 
