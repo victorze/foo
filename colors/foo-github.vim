@@ -13,6 +13,7 @@ function! s:hi(group, foreground, background, fontStyle)
     \ . " guifg="     . a:foreground
     \ . " guibg="     . a:background
     \ . " gui="       . a:fontStyle
+    \ . " cterm="     . a:fontStyle
 endfunction
 
 " Text style
