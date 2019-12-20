@@ -9,15 +9,14 @@ set background=light
 
 " Helper function to set up highlight executions
 function! s:hi(group, foreground, background, fontStyle)
-  exec  "highlight "  . a:group
-    \ . " guifg="     . a:foreground
-    \ . " guibg="     . a:background
-    \ . " gui="       . a:fontStyle
-    \ . " cterm="     . a:fontStyle
+    exec  "highlight "  . a:group
+      \ . " guifg="     . a:foreground
+      \ . " guibg="     . a:background
+      \ . " gui="       . a:fontStyle
+      \ . " cterm="     . a:fontStyle
 endfunction
 
 " Text style
-let s:italic      =   'italic'
 let s:bold        =   'bold'
 let s:underline   =   'underline'
 let s:none        =   'NONE'
@@ -28,7 +27,7 @@ let s:bg = '#ffffff'
 " Colors base
 let s:primary       =   '#a71d5d'
 
-let s:source        =   '#000000'
+let s:source        =   '#1a1a1a'
 let s:keyword       =   s:primary
 let s:structure     =   s:primary
 let s:scalar        =   '#0086b3'
@@ -39,7 +38,7 @@ let s:special       =   '#795da3'
 let s:comment       =   '#969896'
 
 " Syntax highlighting groups
-call s:hi('Comment', s:comment, s:bg, s:italic)
+call s:hi('Comment', s:comment, s:bg, s:none)
 call s:hi('Constant', s:special, s:bg, s:none)
 call s:hi('String', s:string, s:bg, s:none)
 call s:hi('Character', s:string, s:bg, s:none)
@@ -57,7 +56,7 @@ call s:hi('Exception', s:primary, s:bg, s:bold)
 
 call s:hi('Include', s:primary, s:bg, s:bold)
 call s:hi('Define', s:source, s:bg, s:bold)
-call s:hi('Macro', s:source, s:bg, s:italic)
+call s:hi('Macro', s:source, s:bg, s:none)
 call s:hi('PreCondit', s:primary, s:bg, s:none)
 
 call s:hi('Type', s:special, s:bg, s:bold)
@@ -66,6 +65,7 @@ call s:hi('Structure', s:primary, s:bg, s:bold)
 call s:hi('Typedef', s:primary, s:bg, s:bold)
 
 call s:hi('Special', s:source, s:bg, s:none)
+call s:hi('SpecialKey', s:string, s:bg, s:none)
 call s:hi('SpecialChar', s:primary, s:bg, s:none)
 call s:hi('Delimiter', s:source, s:bg, s:none)
 call s:hi('SpecialComment', s:comment, s:bg, s:none)
@@ -73,11 +73,12 @@ call s:hi('Debug', s:primary, s:bg, s:none)
 call s:hi('Underlined', s:source, s:bg, s:underline)
 call s:hi('Error', s:primary, s:bg, s:underline)
 call s:hi('Todo', s:primary, s:bg, s:none)
+call s:hi('Question', s:string, s:bg, s:none)
 
 call s:hi('Directory', s:string, s:bg, s:none)
-call s:hi('CursorLine', s:none, '#e6e6e6', s:none)
+call s:hi('CursorLine', s:none, '#d8d9d8', s:none)
 call s:hi('MatchParen', s:source, s:bg, s:bold)
-call s:hi('ColorColumn', s:source, s:comment, s:none)
+call s:hi('ColorColumn', s:source, '#d8d9d8', s:none)
 
 
 " Interface highlighting
@@ -91,7 +92,7 @@ call s:hi('CursorLineNr', s:source, s:bg, s:none)
 call s:hi('VertSplit', s:comment, s:bg, s:none)
 call s:hi('ErrorMsg', '#ffffff', s:primary, s:none)
 call s:hi('Title', s:scalar, s:bg, s:none)
-call s:hi('Pmenu', '#ffffff', s:source, s:none)
+call s:hi('Pmenu', '#ffffff', '#333333', s:none)
 
 " Git Gutter
 call s:hi('GitGutterAdd', s:source, s:bg, s:none)
@@ -126,9 +127,14 @@ call s:hi('javaScriptBraces', s:source, s:bg, s:none)
 call s:hi('javaScriptNumber', s:scalar, s:bg, s:none)
 call s:hi('jsObjectKey', s:source, s:bg, s:none)
 
+" Typescript
+call s:hi('typescriptBraces', s:source, s:bg, s:none)
+call s:hi('typescriptDecorators', s:function, s:bg, s:bold)
+call s:hi('typescriptEndColons', s:source, s:bg, s:none)
+
 " HTML
 call s:hi('htmlTagName', s:function, s:bg, s:none)
-call s:hi('htmlTag', s:source, s:bg, s:none)
+call s:hi('htmlTag', '#404040', s:bg, s:none)
 call s:hi('Identifier', s:source, s:bg, s:none)
 call s:hi('htmlArg', s:special, s:bg, s:none)
 
