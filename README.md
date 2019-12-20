@@ -4,10 +4,10 @@
 ![github](https://raw.githubusercontent.com/victorze/foo/master/img/foo-github.png)
 
 ### hyper
-![hyper](https://raw.githubusercontent.com/victorze/foo/master/img/foo-hyper.png)
+![hyper](https://raw.githubusercontent.com/victorze/foo/master/img/hyper.png)
 
 ### abyss
-![abyss](https://raw.githubusercontent.com/victorze/foo/master/img/foo-abyss.png)
+![abyss](https://raw.githubusercontent.com/victorze/foo/master/img/abyss.png)
 
 
 ## Installation
