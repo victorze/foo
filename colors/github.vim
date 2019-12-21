@@ -50,7 +50,7 @@ call s:hi('Function', s:function, s:bg, s:none)
 call s:hi('Statement', s:primary, s:bg, s:bold)
 call s:hi('Conditional', s:keyword, s:bg, s:bold)
 call s:hi('Repeat', s:keyword, s:bg, s:bold)
-call s:hi('Operator', s:primary, s:bg, s:bold)
+call s:hi('Operator', s:source, s:bg, s:none)
 call s:hi('Keyword', s:primary, s:bg, s:bold)
 call s:hi('Exception', s:primary, s:bg, s:bold)
 
