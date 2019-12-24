@@ -135,6 +135,11 @@ call s:hi('javaScriptBraces', s:source, s:bg, s:italic)
 call s:hi('javaScriptNumber', s:scalar, s:bg, s:italic)
 call s:hi('jsObjectKey', '#ef596f', s:bg, s:italic)
 
+" Typescript
+call s:hi('typescriptBraces', s:source, s:bg, s:none)
+call s:hi('typescriptDecorators', s:function, s:bg, s:none)
+call s:hi('typescriptEndColons', s:source, s:bg, s:none)
+
 " HTML
 call s:hi('htmlTagName', '#ef596f', s:bg, s:none)
 call s:hi('htmlTag', '#aab1c0', s:bg, s:none)
