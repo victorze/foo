@@ -1,13 +1,13 @@
 # Colorschemes for vim
 
 ### github
-![github](https://raw.githubusercontent.com/victorze/foo/master/img/foo-github.png)
+![github](https://raw.githubusercontent.com/victorze/foo/master/img/github_.png)
 
 ### hyper
-![hyper](https://raw.githubusercontent.com/victorze/foo/master/img/hyper.png)
+![hyper](https://raw.githubusercontent.com/victorze/foo/master/img/hyper_.png)
 
 ### abyss
-![abyss](https://raw.githubusercontent.com/victorze/foo/master/img/abyss.png)
+![abyss](https://raw.githubusercontent.com/victorze/foo/master/img/abyss_.png)
 
 
 ## Installation
