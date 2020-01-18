@@ -27,7 +27,7 @@ let s:bg = '#ffffff'
 " Colors base
 let s:primary       =   '#a71d5d'
 
-let s:source        =   '#1a1a1a'
+let s:source        =   '#000000'
 let s:keyword       =   s:primary
 let s:structure     =   s:primary
 let s:scalar        =   '#0086b3'
