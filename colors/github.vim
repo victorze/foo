@@ -118,7 +118,7 @@ call s:hi('jinjaString', s:string, s:bg, s:none)
 " PHP
 call s:hi('phpDefine', s:primary, s:bg, s:bold)
 call s:hi('phpIdentifier', s:source, s:bg, s:none)
-call s:hi('bladeKeyword', s:primary, s:bg, s:none)
+call s:hi('bladeKeyword', s:primary, s:bg, s:bold)
 call s:hi('PreProc', s:primary, s:bg, s:none)
 
 " Javascript
