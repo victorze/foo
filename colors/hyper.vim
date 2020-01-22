@@ -59,13 +59,13 @@ call s:hi('Repeat', s:keyword, s:bg, s:none)
 call s:hi('Label', s:primary, s:bg, s:none)
 call s:hi('Operator', s:source, s:bg, s:none)
 call s:hi('Keyword', s:primary, s:bg, s:none)
-call s:hi('Exception', s:primary, s:bg, s:italic)
+call s:hi('Exception', s:primary, s:bg, s:none)
 
-call s:hi('PreProc', s:source, s:bg, s:italic)
-call s:hi('Include', s:primary, s:bg, s:italic)
-call s:hi('Define', s:source, s:bg, s:italic)
-call s:hi('Macro', s:source, s:bg, s:italic)
-call s:hi('PreCondit', s:primary, s:bg, s:italic)
+call s:hi('PreProc', s:source, s:bg, s:none)
+call s:hi('Include', s:primary, s:bg, s:none)
+call s:hi('Define', s:source, s:bg, s:none)
+call s:hi('Macro', s:source, s:bg, s:none)
+call s:hi('PreCondit', s:primary, s:bg, s:none)
 
 call s:hi('Type', '#e5c07b', s:bg, s:none)
 call s:hi('StorageClass', s:primary, s:bg, s:none)
@@ -113,9 +113,9 @@ call s:hi('SignColumn', s:source, s:bg, s:none)
 
 " Python syntax highlighting
 call s:hi('pythonFunction', '#52adf2', s:bg, s:none)
-call s:hi('pythonBuiltin', '#2bbac5', s:bg, s:italic)
-call s:hi('pythonDecoratorName', s:scalar, s:bg, s:italic)
-call s:hi('pythonDecorator', s:scalar, s:bg, s:italic)
+call s:hi('pythonBuiltin', '#2bbac5', s:bg, s:none)
+call s:hi('pythonDecoratorName', s:scalar, s:bg, s:none)
+call s:hi('pythonDecorator', s:scalar, s:bg, s:none)
 call s:hi('jinjaStatement', s:scalar, s:bg, s:none)
 call s:hi('jinjaTagDelim', s:scalar, s:bg, s:none)
 call s:hi('jinjaBlockName', s:scalar, s:bg, s:none)
@@ -124,16 +124,16 @@ call s:hi('jinjaString', s:string, s:bg, s:none)
 
 
 " PHP
-call s:hi('phpDefine', s:primary, s:bg, s:italic)
-call s:hi('phpIdentifier', s:source, s:bg, s:italic)
+call s:hi('phpDefine', s:primary, s:bg, s:none)
+call s:hi('phpIdentifier', s:source, s:bg, s:none)
 call s:hi('bladeKeyword', s:primary, s:bg, s:none)
 
 
 " Javascript
-call s:hi('javaScriptNull', s:scalar, s:bg, s:italic)
-call s:hi('javaScriptBraces', s:source, s:bg, s:italic)
-call s:hi('javaScriptNumber', s:scalar, s:bg, s:italic)
-call s:hi('jsObjectKey', '#ef596f', s:bg, s:italic)
+call s:hi('javaScriptNull', s:scalar, s:bg, s:none)
+call s:hi('javaScriptBraces', s:source, s:bg, s:none)
+call s:hi('javaScriptNumber', s:scalar, s:bg, s:none)
+call s:hi('jsObjectKey', '#ef596f', s:bg, s:none)
 
 " Typescript
 call s:hi('typescriptBraces', s:source, s:bg, s:none)
@@ -147,15 +147,15 @@ call s:hi('Identifier', '#aab1c0', s:bg, s:none)
 call s:hi('htmlArg', s:scalar, s:bg, s:none)
 
 " CSS
-call s:hi('cssProp', s:source, s:bg, s:italic)
-call s:hi('cssBraces', s:source, s:bg, s:italic)
+call s:hi('cssProp', s:source, s:bg, s:none)
+call s:hi('cssBraces', s:source, s:bg, s:none)
 
 
 " Ruby
-call s:hi('rubyModule', s:primary, s:bg, s:italic)
-call s:hi('rubyDefine', s:primary, s:bg, s:italic)
-call s:hi('rubyClass', s:primary, s:bg, s:italic)
-call s:hi('rubyFunction', s:source, s:bg, s:italic)
+call s:hi('rubyModule', s:primary, s:bg, s:none)
+call s:hi('rubyDefine', s:primary, s:bg, s:none)
+call s:hi('rubyClass', s:primary, s:bg, s:none)
+call s:hi('rubyFunction', s:source, s:bg, s:none)
 
 
 " Vimscript syntax highlighting
