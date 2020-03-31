@@ -82,6 +82,8 @@ call s:hi('Todo', s:primary, s:bg, s:none)
 call s:hi('Error', s:primary, s:bg, s:underline)
 call s:hi('ErrorMsg', s:primary, s:bg, s:none)
 call s:hi('Question', s:string, s:bg, s:none)
+call s:hi('WarningMsg', s:primary, s:none, s:none)
+call s:hi('Search', s:none, '#393e46', s:none)
 
 call s:hi('Directory', s:string, s:bg, s:none)
 call s:hi('CursorLine', s:none, '#1a1a1a', s:none)
