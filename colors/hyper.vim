@@ -25,7 +25,7 @@ let s:none        =   'NONE'
 
 
 " Background
-let s:bg = '#0d0d0d'
+let s:bg = '#000000'
 
 
 " Colors base
