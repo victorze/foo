@@ -6,11 +6,11 @@
 ### abyss
 ![abyss](https://raw.githubusercontent.com/victorze/foo/master/img/abyss_.png)
 
-### github
+### github-old
 ![github](https://raw.githubusercontent.com/victorze/foo/master/img/github_.png)
 
 ## Installation
-1. Move github.vim, hyper.vim and abyss.vim to your .vim/colors
+1. Move github-old.vim, hyper.vim and abyss.vim to your .vim/colors
 or install with [Plug](https://github.com/junegunn/vim-plug):
 
 ```vim
@@ -25,7 +25,7 @@ set background=dark
 colorscheme hyper
 ```
 
-Note (for the github theme): If you are running Vim in a terminal you must choose a font that supports bold text.
+Note (for the github-old theme): If you are running Vim in a terminal you must choose a font that supports bold text.
 
 ## Airline (optional)
 
