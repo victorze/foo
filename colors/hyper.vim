@@ -160,6 +160,11 @@ call s:hi('rubyDefine', s:primary, s:bg, s:none)
 call s:hi('rubyClass', s:primary, s:bg, s:none)
 call s:hi('rubyFunction', s:source, s:bg, s:none)
 
+" Clojure
+call s:hi('clojureSpecial', s:primary, s:bg, s:none)
+call s:hi('clojureDefine', s:primary, s:bg, s:none)
+call s:hi('clojureKeyword', s:source, s:bg, s:none)
+
 
 " Vimscript syntax highlighting
 call s:hi('vimOption', s:source, s:bg, s:none)
