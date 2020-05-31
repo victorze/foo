@@ -42,7 +42,7 @@ let s:comment       =   '#26402c'
 
 
 " Syntax highlighting groups
-call s:hi('Comment', s:comment, s:bg, s:italic)
+call s:hi('Comment', s:comment, s:bg, s:none)
 call s:hi('Constant', s:primary, s:bg, s:none)
 call s:hi('String', s:string, s:bg, s:none)
 call s:hi('Character', s:string, s:bg, s:none)
@@ -134,7 +134,7 @@ call s:hi('bladeKeyword', s:primary, s:bg, s:none)
 call s:hi('javaScriptNull', s:scalar, s:bg, s:none)
 call s:hi('javaScriptBraces', s:source, s:bg, s:none)
 call s:hi('javaScriptNumber', s:scalar, s:bg, s:none)
-call s:hi('jsObjectKey', '#ef596f', s:bg, s:none)
+call s:hi('jsObjectKey', s:source, s:bg, s:none)
 
 " Typescript
 call s:hi('typescriptBraces', s:source, s:bg, s:none)
