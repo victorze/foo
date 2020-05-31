@@ -86,9 +86,9 @@ call s:hi('WarningMsg', s:primary, s:none, s:none)
 call s:hi('Search', s:none, '#393e46', s:none)
 
 call s:hi('Directory', s:string, s:bg, s:none)
-call s:hi('CursorLine', s:none, '#1a1a1a', s:none)
+call s:hi('CursorLine', s:none, '#0d0d0d', s:none)
 call s:hi('MatchParen', s:string, s:bg, s:none)
-call s:hi('ColorColumn', s:source, '#1a1a1a', s:none)
+call s:hi('ColorColumn', s:source, '#0d0d0d', s:none)
 
 
 " Interface highlighting
@@ -99,9 +99,9 @@ call s:hi('iCursor', s:none, s:bg, s:none)
 call s:hi('LineNr', '#495162', s:bg, s:none)
 call s:hi('NonText', s:comment, s:bg, s:none)
 call s:hi('CursorLineNr', s:source, s:bg, s:none)
-call s:hi('VertSplit', '#1a1a1a', s:bg, s:none)
+call s:hi('VertSplit', '#0d0d0d', s:bg, s:none)
 call s:hi('Title', s:scalar, s:bg, s:none)
-call s:hi('Pmenu', s:source, '#1a1a1a', s:none)
+call s:hi('Pmenu', s:source, '#0d0d0d', s:none)
 call s:hi('PmenuSel', s:bg, s:source, s:none)
 call s:hi('SpecialKey', s:source, s:bg, s:none)
 
