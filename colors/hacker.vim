@@ -87,7 +87,7 @@ call s:hi('Search', s:bg, s:source, s:none)
 
 call s:hi('Directory', s:string, s:bg, s:none)
 call s:hi('CursorLine', s:none, '#1a1a1a', s:none)
-call s:hi('MatchParen', s:string, s:bg, s:none)
+call s:hi('MatchParen', s:source, '#333333', s:none)
 call s:hi('ColorColumn', s:source, '#1a1a1a', s:none)
 
 
