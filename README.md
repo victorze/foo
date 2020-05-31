@@ -4,7 +4,7 @@
 ![hyper](https://raw.githubusercontent.com/victorze/foo/master/img/hyper_.png)
 
 ### mr-robot
-![mr-robot](https://raw.githubusercontent.com/victorze/foo/master/img/mr-robot.png)
+![mr-robot](https://raw.githubusercontent.com/victorze/foo/master/img/mr-robot_.png)
 
 ### abyss
 ![abyss](https://raw.githubusercontent.com/victorze/foo/master/img/abyss_.png)
