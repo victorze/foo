@@ -83,7 +83,7 @@ call s:hi('Error', s:primary, s:bg, s:underline)
 call s:hi('ErrorMsg', s:primary, s:bg, s:none)
 call s:hi('Question', s:string, s:bg, s:none)
 call s:hi('WarningMsg', s:primary, s:none, s:none)
-call s:hi('Search', s:none, '#393e46', s:none)
+call s:hi('Search', s:bg, s:source, s:none)
 
 call s:hi('Directory', s:string, s:bg, s:none)
 call s:hi('CursorLine', s:none, '#0d0d0d', s:none)
@@ -93,7 +93,7 @@ call s:hi('ColorColumn', s:source, '#0d0d0d', s:none)
 
 " Interface highlighting
 call s:hi('Normal', s:source, s:bg, s:none)
-call s:hi('Visual', s:none, '#393e46', s:none)
+call s:hi('Visual', s:bg, s:source, s:none)
 call s:hi('Cursor', s:none, s:bg, s:none)
 call s:hi('iCursor', s:none, s:bg, s:none)
 call s:hi('LineNr', '#495162', s:bg, s:none)
