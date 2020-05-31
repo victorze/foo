@@ -3,6 +3,9 @@
 ### hyper
 ![hyper](https://raw.githubusercontent.com/victorze/foo/master/img/hyper_.png)
 
+### mr-robot
+![mr-robot](https://raw.githubusercontent.com/victorze/foo/master/img/mr-robot.png)
+
 ### abyss
 ![abyss](https://raw.githubusercontent.com/victorze/foo/master/img/abyss_.png)
 
@@ -10,7 +13,7 @@
 ![github](https://raw.githubusercontent.com/victorze/foo/master/img/github_.png)
 
 ## Installation
-1. Move github-old.vim, hyper.vim and abyss.vim to your .vim/colors
+1. Move hyper.vim, mr-robot.vim, abyss.vim and github-old.vim to your .vim/colors
 or install with [Plug](https://github.com/junegunn/vim-plug):
 
 ```vim
