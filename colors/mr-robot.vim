@@ -29,16 +29,16 @@ let s:bg = '#000000'
 
 
 " Colors base
-let s:primary       =   '#89ca78'
-let s:secondary     =   '#9ccc9c'
+let s:primary       =   '#4d8058'
+let s:secondary     =   '#81b38c'
 
 let s:source        =   s:secondary
 let s:keyword       =   s:primary
 let s:structure     =   s:primary
 let s:scalar        =   s:primary
-let s:string        =   '#649568'
+let s:string        =   s:primary
 
-let s:comment       =   '#495162'
+let s:comment       =   '#26402c'
 
 
 " Syntax highlighting groups
@@ -88,7 +88,7 @@ call s:hi('Search', s:bg, s:source, s:none)
 call s:hi('Directory', s:string, s:bg, s:none)
 call s:hi('CursorLine', s:none, '#0d0d0d', s:none)
 call s:hi('MatchParen', s:string, s:bg, s:none)
-call s:hi('ColorColumn', s:source, '#0d0d0d', s:none)
+call s:hi('ColorColumn', s:source, '#132016', s:none)
 
 
 " Interface highlighting
@@ -96,7 +96,7 @@ call s:hi('Normal', s:source, s:bg, s:none)
 call s:hi('Visual', s:bg, s:source, s:none)
 call s:hi('Cursor', s:none, s:bg, s:none)
 call s:hi('iCursor', s:none, s:bg, s:none)
-call s:hi('LineNr', '#495162', s:bg, s:none)
+call s:hi('LineNr', s:comment, s:bg, s:none)
 call s:hi('NonText', s:comment, s:bg, s:none)
 call s:hi('CursorLineNr', s:source, s:bg, s:none)
 call s:hi('VertSplit', '#0d0d0d', s:bg, s:none)
