@@ -130,6 +130,9 @@ call s:hi('phpDefine', s:primary, s:bg, s:none)
 call s:hi('phpIdentifier', s:source, s:bg, s:none)
 call s:hi('bladeKeyword', '#a7ecb7', s:bg, s:none)
 
+" Java
+call s:hi('javaAnnotation', s:primary, s:bg, s:none)
+
 " Javascript
 call s:hi('javaScriptNull', s:scalar, s:bg, s:none)
 call s:hi('javaScriptBraces', s:source, s:bg, s:none)
