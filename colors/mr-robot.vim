@@ -156,6 +156,7 @@ call s:hi('rubyModule', s:primary, s:bg, s:none)
 call s:hi('rubyDefine', s:primary, s:bg, s:none)
 call s:hi('rubyClass', s:primary, s:bg, s:none)
 call s:hi('rubyFunction', s:source, s:bg, s:none)
+call s:hi('rubyStringDelimiter', s:string, s:bg, s:none)
 
 " Clojure
 call s:hi('clojureSpecial', s:primary, s:bg, s:none)
