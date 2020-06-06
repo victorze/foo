@@ -173,7 +173,7 @@ call s:hi('clojureDefine', s:primary, s:bg, s:none)
 call s:hi('clojureKeyword', s:source, s:bg, s:none)
 
 " C
-+call s:hi('cType', s:primary, s:bg, s:none)
+call s:hi('cType', s:primary, s:bg, s:none)
 
 " Vimscript syntax highlighting
 call s:hi('vimOption', s:source, s:bg, s:none)
