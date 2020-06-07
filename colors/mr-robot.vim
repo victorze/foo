@@ -53,7 +53,7 @@ call s:hi('Float', s:scalar, s:bg, s:none)
 call s:hi('Identifier', s:primary, s:bg, s:none)
 call s:hi('Function', s:primary, s:bg, s:none)
 
-call s:hi('Statement', s:secondary, s:bg, s:none)
+call s:hi('Statement', s:primary, s:bg, s:none)
 call s:hi('Conditional', s:keyword, s:bg, s:none)
 call s:hi('Repeat', s:keyword, s:bg, s:none)
 call s:hi('Label', s:primary, s:bg, s:none)
