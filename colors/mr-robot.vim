@@ -36,7 +36,7 @@ let s:source        =   s:secondary
 let s:keyword       =   s:primary
 let s:structure     =   s:primary
 let s:scalar        =   s:primary
-let s:string        =   s:primary
+let s:string        =   s:secondary
 
 let s:comment       =   '#26402c'
 
@@ -138,6 +138,7 @@ call s:hi('javaScriptNull', s:scalar, s:bg, s:none)
 call s:hi('javaScriptBraces', s:source, s:bg, s:none)
 call s:hi('javaScriptNumber', s:scalar, s:bg, s:none)
 call s:hi('jsObjectKey', s:source, s:bg, s:none)
+call s:hi('jsClassKeyword', s:secondary, s:bg, s:none)
 
 " Json
 call s:hi('jsonString', s:source, s:bg, s:none)
