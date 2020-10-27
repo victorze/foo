@@ -36,7 +36,7 @@ let s:source        =   s:secondary
 let s:keyword       =   s:primary
 let s:structure     =   s:primary
 let s:scalar        =   s:primary
-let s:string        =   s:secondary
+let s:string        =   s:primary
 
 let s:comment       =   '#26402c'
 
