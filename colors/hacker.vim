@@ -136,6 +136,9 @@ call s:hi('javaScriptBraces', s:source, s:bg, s:none)
 call s:hi('javaScriptNumber', s:scalar, s:bg, s:none)
 call s:hi('jsObjectKey', s:source, s:bg, s:none)
 
+" Java
+call s:hi('javaAnnotation', s:secondary, s:bg, s:none)
+
 " Typescript
 call s:hi('typescriptBraces', s:source, s:bg, s:none)
 call s:hi('typescriptDecorators', s:scalar, s:bg, s:none)
