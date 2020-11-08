@@ -69,7 +69,7 @@ call s:hi('Macro', s:source, s:bg, s:none)
 call s:hi('PreCondit', s:primary, s:bg, s:none)
 
 call s:hi('Type', s:primary, s:bg, s:none)
-call s:hi('StorageClass', s:primary, s:bg, s:none)
+call s:hi('StorageClass', s:keyword, s:bg, s:none)
 call s:hi('Structure', s:primary, s:bg, s:none)
 call s:hi('Typedef', s:primary, s:bg, s:none)
 
