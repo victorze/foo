@@ -57,7 +57,7 @@ call s:hi('Statement', s:primary, s:bg, s:none)
 call s:hi('Conditional', s:keyword, s:bg, s:none)
 call s:hi('Repeat', s:keyword, s:bg, s:none)
 call s:hi('Label', s:primary, s:bg, s:none)
-call s:hi('Operator', s:source, s:bg, s:none)
+call s:hi('Operator', s:primary, s:bg, s:none)
 call s:hi('Keyword', s:primary, s:bg, s:none)
 call s:hi('Exception', s:primary, s:bg, s:none)
 
@@ -120,8 +120,9 @@ call s:hi('pythonBuiltin', s:primary, s:bg, s:none)
 call s:hi('pythonDecoratorName', s:scalar, s:bg, s:none)
 call s:hi('pythonDecorator', s:scalar, s:bg, s:none)
 call s:hi('pythonOperator', s:primary, s:bg, s:none)
-call s:hi('jinjaStatement', '#a7ecb7', s:bg, s:none)
 call s:hi('jinjaTagDelim', '#a7ecb7', s:bg, s:none)
+call s:hi('jinjaVarBlock', '#a7ecb7', s:bg, s:none)
+call s:hi('jinjaStatement', s:source, s:bg, s:none)
 call s:hi('jinjaBlockName', s:source, s:bg, s:none)
 call s:hi('jinjaVariable', s:source, s:bg, s:none)
 call s:hi('jinjaString', s:string, s:bg, s:none)
@@ -129,17 +130,18 @@ call s:hi('jinjaString', s:string, s:bg, s:none)
 " PHP
 call s:hi('phpDefine', s:primary, s:bg, s:none)
 call s:hi('phpIdentifier', s:source, s:bg, s:none)
+call s:hi('phpVarSelector', s:source, s:bg, s:none)
 call s:hi('bladeKeyword', '#a7ecb7', s:bg, s:none)
 
 " Java
 call s:hi('javaAnnotation', s:primary, s:bg, s:none)
 
 " Javascript
-call s:hi('javaScriptNull', s:scalar, s:bg, s:none)
-call s:hi('javaScriptBraces', s:source, s:bg, s:none)
-call s:hi('javaScriptNumber', s:scalar, s:bg, s:none)
-call s:hi('jsObjectKey', s:source, s:bg, s:none)
-call s:hi('jsClassKeyword', s:secondary, s:bg, s:none)
+call s:hi('jsNull', s:scalar, s:bg, s:none)
+call s:hi('jsUndefined', s:scalar, s:bg, s:none)
+call s:hi('jsFunction', s:primary, s:bg, s:none)
+call s:hi('jsFuncName', s:secondary, s:bg, s:none)
+call s:hi('jsArrowFunction', s:primary, s:bg, s:none)
 
 " Json
 call s:hi('jsonString', s:source, s:bg, s:none)
@@ -153,10 +155,10 @@ call s:hi('typescriptDecorators', '#ef596f', s:bg, s:none)
 call s:hi('typescriptEndColons', s:source, s:bg, s:none)
 
 " HTML
-call s:hi('htmlTagName', s:source, s:bg, s:none)
-call s:hi('htmlTag', s:source, s:bg, s:none)
+call s:hi('htmlTagName', s:primary, s:bg, s:none)
+call s:hi('htmlTag', s:primary, s:bg, s:none)
 call s:hi('Identifier', s:primary, s:bg, s:none)
-call s:hi('htmlArg', s:scalar, s:bg, s:none)
+call s:hi('htmlArg', s:secondary, s:bg, s:none)
 
 " CSS
 call s:hi('cssProp', s:source, s:bg, s:none)
