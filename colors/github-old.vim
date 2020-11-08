@@ -4,7 +4,7 @@ if exists('syntax_on')
   syntax reset
 endif
 
-let g:colors_name = 'github'
+let g:colors_name = 'github-old'
 set background=light
 
 " Helper function to set up highlight executions
@@ -50,7 +50,7 @@ call s:hi('Function', s:function, s:bg, s:none)
 call s:hi('Statement', s:primary, s:bg, s:bold)
 call s:hi('Conditional', s:keyword, s:bg, s:bold)
 call s:hi('Repeat', s:keyword, s:bg, s:bold)
-call s:hi('Operator', s:source, s:bg, s:none)
+call s:hi('Operator', s:primary, s:bg, s:none)
 call s:hi('Keyword', s:primary, s:bg, s:bold)
 call s:hi('Exception', s:primary, s:bg, s:bold)
 
@@ -74,6 +74,7 @@ call s:hi('Underlined', s:source, s:bg, s:underline)
 call s:hi('Error', s:primary, s:bg, s:underline)
 call s:hi('Todo', s:primary, s:bg, s:none)
 call s:hi('Question', s:string, s:bg, s:none)
+call s:hi('Search', s:bg, s:string, s:none)
 
 call s:hi('Directory', s:string, s:bg, s:none)
 call s:hi('CursorLine', s:none, '#d8d9d8', s:none)
@@ -109,23 +110,23 @@ call s:hi('pythonFunction', s:special, s:bg, s:bold)
 call s:hi('pythonBuiltin', s:function, s:bg, s:none)
 call s:hi('pythonDecoratorName', s:function, s:bg, s:none)
 call s:hi('pythonDecorator', s:function, s:bg, s:none)
-call s:hi('jinjaStatement', s:primary, s:bg, s:none)
 call s:hi('jinjaTagDelim', s:primary, s:bg, s:none)
-call s:hi('jinjaBlockName', s:primary, s:bg, s:none)
-call s:hi('jinjaVariable', s:scalar, s:bg, s:none)
+call s:hi('jinjaVarBlock', s:primary, s:bg, s:none)
+call s:hi('jinjaStatement', s:primary, s:bg, s:none)
 call s:hi('jinjaString', s:string, s:bg, s:none)
 
 " PHP
 call s:hi('phpDefine', s:primary, s:bg, s:bold)
 call s:hi('phpIdentifier', s:source, s:bg, s:none)
+call s:hi('phpVarSelector', s:source, s:bg, s:none)
 call s:hi('bladeKeyword', s:primary, s:bg, s:bold)
 call s:hi('PreProc', s:primary, s:bg, s:none)
 
 " Javascript
-call s:hi('javaScriptNull', s:scalar, s:bg, s:none)
-call s:hi('javaScriptBraces', s:source, s:bg, s:none)
-call s:hi('javaScriptNumber', s:scalar, s:bg, s:none)
-call s:hi('jsObjectKey', s:source, s:bg, s:none)
+call s:hi('jsNull', s:scalar, s:bg, s:none)
+call s:hi('jsUndefined', s:scalar, s:bg, s:none)
+call s:hi('jsFunction', s:primary, s:bg, s:bold)
+call s:hi('jsArrowFunction', s:primary, s:bg, s:none)
 
 " Typescript
 call s:hi('typescriptBraces', s:source, s:bg, s:none)
@@ -160,7 +161,6 @@ hi CursorLine cterm=none
 hi Identifier cterm=none
 
 if has("gui_win32")
-    call s:hi('CursorLine', s:source, '#d8d9d8', s:none)
     call s:hi('Cursor', '#ffffff', s:primary, s:none)
 endif
 
