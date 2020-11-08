@@ -57,7 +57,7 @@ call s:hi('Statement', s:primary, s:bg, s:none)
 call s:hi('Conditional', s:keyword, s:bg, s:none)
 call s:hi('Repeat', s:keyword, s:bg, s:none)
 call s:hi('Label', s:primary, s:bg, s:none)
-call s:hi('Operator', s:source, s:bg, s:none)
+call s:hi('Operator', s:primary, s:bg, s:none)
 call s:hi('Keyword', s:primary, s:bg, s:none)
 call s:hi('Exception', s:primary, s:bg, s:none)
 
@@ -133,7 +133,9 @@ call s:hi('bladeKeyword', s:scalar, s:bg, s:none)
 " Javascript
 call s:hi('jsNull', s:scalar, s:bg, s:none)
 call s:hi('jsUndefined', s:scalar, s:bg, s:none)
-call s:hi('jsFuncName', s:source, s:bg, s:none)
+call s:hi('jsFunction', s:primary, s:bg, s:none)
+call s:hi('jsFuncName', s:secondary, s:bg, s:none)
+call s:hi('jsArrowFunction', s:primary, s:bg, s:none)
 
 " Java
 call s:hi('javaAnnotation', s:secondary, s:bg, s:none)
