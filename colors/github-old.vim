@@ -50,7 +50,7 @@ call s:hi('Function', s:function, s:bg, s:none)
 call s:hi('Statement', s:primary, s:bg, s:bold)
 call s:hi('Conditional', s:keyword, s:bg, s:bold)
 call s:hi('Repeat', s:keyword, s:bg, s:bold)
-call s:hi('Operator', s:primary, s:bg, s:none)
+call s:hi('Operator', s:primary, s:bg, s:bold)
 call s:hi('Keyword', s:primary, s:bg, s:bold)
 call s:hi('Exception', s:primary, s:bg, s:bold)
 
@@ -120,13 +120,13 @@ call s:hi('phpDefine', s:primary, s:bg, s:bold)
 call s:hi('phpIdentifier', s:source, s:bg, s:none)
 call s:hi('phpVarSelector', s:source, s:bg, s:none)
 call s:hi('bladeKeyword', s:primary, s:bg, s:bold)
-call s:hi('PreProc', s:primary, s:bg, s:none)
+call s:hi('PreProc', s:primary, s:bg, s:bold)
 
 " Javascript
 call s:hi('jsNull', s:scalar, s:bg, s:none)
 call s:hi('jsUndefined', s:scalar, s:bg, s:none)
 call s:hi('jsFunction', s:primary, s:bg, s:bold)
-call s:hi('jsArrowFunction', s:primary, s:bg, s:none)
+call s:hi('jsArrowFunction', s:primary, s:bg, s:bold)
 
 " Typescript
 call s:hi('typescriptBraces', s:source, s:bg, s:none)
