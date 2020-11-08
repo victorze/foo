@@ -129,6 +129,7 @@ call s:hi('jinjaOperator', s:primary, s:bg, s:none)
 " PHP
 call s:hi('phpDefine', s:primary, s:bg, s:none)
 call s:hi('phpIdentifier', s:source, s:bg, s:none)
+call s:hi('phpVarSelector', s:source, s:bg, s:none)
 call s:hi('bladeKeyword', s:scalar, s:bg, s:none)
 
 " Javascript
