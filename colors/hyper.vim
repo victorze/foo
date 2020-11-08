@@ -135,6 +135,7 @@ call s:hi('jsNull', s:scalar, s:bg, s:none)
 call s:hi('jsUndefined', s:scalar, s:bg, s:none)
 call s:hi('jsFunction', s:primary, s:bg, s:none)
 call s:hi('jsFuncName', "#52adf2", s:bg, s:none)
+call s:hi('jsArrowFunction', s:source, s:bg, s:none)
 call s:hi('jsonKeyword', s:source, s:bg, s:none)
 
 " Java
