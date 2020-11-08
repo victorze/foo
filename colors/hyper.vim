@@ -119,8 +119,9 @@ call s:hi('pythonBuiltin', '#2bbac5', s:bg, s:none)
 call s:hi('pythonDecoratorName', s:scalar, s:bg, s:none)
 call s:hi('pythonDecorator', s:scalar, s:bg, s:none)
 call s:hi('pythonOperator', s:primary, s:bg, s:none)
-call s:hi('jinjaStatement', s:primary, s:bg, s:none)
 call s:hi('jinjaTagDelim', s:primary, s:bg, s:none)
+call s:hi('jinjaVarBlock', s:primary, s:bg, s:none)
+call s:hi('jinjaStatement', s:source, s:bg, s:none)
 call s:hi('jinjaBlockName', s:source, s:bg, s:none)
 call s:hi('jinjaVariable', s:source, s:bg, s:none)
 call s:hi('jinjaString', s:string, s:bg, s:none)
@@ -181,7 +182,6 @@ hi CursorLine cterm=none
 hi Identifier cterm=none
 
 if has("gui_win32")
-    call s:hi('CursorLine', s:source, '#1a1a1a', s:none)
     call s:hi('Cursor', s:bg, s:string, s:none)
 endif
 
