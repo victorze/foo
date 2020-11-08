@@ -114,8 +114,7 @@ call s:hi('SignColumn', s:source, s:bg, s:none)
 
 
 " Python syntax highlighting
-call s:hi('pythonFunction', '#52adf2', s:bg, s:none)
-call s:hi('pythonBuiltin', '#2bbac5', s:bg, s:none)
+call s:hi('pythonBuiltin', s:scalar, s:bg, s:none)
 call s:hi('pythonDecoratorName', s:scalar, s:bg, s:none)
 call s:hi('pythonDecorator', s:scalar, s:bg, s:none)
 call s:hi('pythonOperator', s:primary, s:bg, s:none)
@@ -126,17 +125,16 @@ call s:hi('jinjaBlockName', s:source, s:bg, s:none)
 call s:hi('jinjaVariable', s:source, s:bg, s:none)
 call s:hi('jinjaString', s:string, s:bg, s:none)
 
-
 " PHP
 call s:hi('phpDefine', s:primary, s:bg, s:none)
 call s:hi('phpIdentifier', s:source, s:bg, s:none)
 call s:hi('bladeKeyword', s:primary, s:bg, s:none)
 
-
 " Javascript
-call s:hi('javaScriptNull', s:scalar, s:bg, s:none)
-call s:hi('javaScriptBraces', s:source, s:bg, s:none)
-call s:hi('javaScriptNumber', s:scalar, s:bg, s:none)
+call s:hi('jsNull', s:scalar, s:bg, s:none)
+call s:hi('jsUndefined', s:scalar, s:bg, s:none)
+call s:hi('jsFunction', s:primary, s:bg, s:none)
+call s:hi('jsFuncName', "#52adf2", s:bg, s:none)
 
 " Java
 call s:hi('javaAnnotation', s:scalar, s:bg, s:none)
