@@ -33,7 +33,7 @@ let s:primary       =   '#81b38c'
 let s:secondary     =   '#7574a5'
 
 let s:source        =   '#bbbbbb'
-let s:keyword       =   s:secondary
+let s:keyword       =   s:primary
 let s:structure     =   s:secondary
 let s:scalar        =   '#c05776'
 let s:string        =   '#a7ecb7'
@@ -51,9 +51,9 @@ call s:hi('Boolean', s:scalar, s:bg, s:none)
 call s:hi('Float', s:scalar, s:bg, s:none)
 
 call s:hi('Identifier', s:primary, s:bg, s:none)
-call s:hi('Function', s:primary, s:bg, s:none)
+call s:hi('Function', s:secondary, s:bg, s:none)
 
-call s:hi('Statement', s:secondary, s:bg, s:none)
+call s:hi('Statement', s:primary, s:bg, s:none)
 call s:hi('Conditional', s:keyword, s:bg, s:none)
 call s:hi('Repeat', s:keyword, s:bg, s:none)
 call s:hi('Label', s:primary, s:bg, s:none)
@@ -131,10 +131,9 @@ call s:hi('phpIdentifier', s:source, s:bg, s:none)
 call s:hi('bladeKeyword', s:scalar, s:bg, s:none)
 
 " Javascript
-call s:hi('javaScriptNull', s:scalar, s:bg, s:none)
-call s:hi('javaScriptBraces', s:source, s:bg, s:none)
-call s:hi('javaScriptNumber', s:scalar, s:bg, s:none)
-call s:hi('jsObjectKey', s:source, s:bg, s:none)
+call s:hi('jsNull', s:scalar, s:bg, s:none)
+call s:hi('jsUndefined', s:scalar, s:bg, s:none)
+call s:hi('jsFuncName', s:source, s:bg, s:none)
 
 " Java
 call s:hi('javaAnnotation', s:secondary, s:bg, s:none)
