@@ -127,11 +127,16 @@ call s:hi('jsNull', s:scalar, s:bg, s:none)
 call s:hi('jsUndefined', s:scalar, s:bg, s:none)
 call s:hi('jsFunction', s:primary, s:bg, s:bold)
 call s:hi('jsArrowFunction', s:primary, s:bg, s:bold)
+call s:hi('jsonKeyword', s:source, s:bg, s:none)
 
 " Typescript
 call s:hi('typescriptBraces', s:source, s:bg, s:none)
-call s:hi('typescriptDecorators', s:function, s:bg, s:bold)
-call s:hi('typescriptEndColons', s:source, s:bg, s:none)
+call s:hi('typescriptDecorator', s:function, s:bg, s:none)
+call s:hi('typescriptImport', s:primary, s:bg, s:bold)
+call s:hi('typescriptExport', s:primary, s:bg, s:bold)
+
+" Java
+call s:hi('javaAnnotation', s:function, s:bg, s:none)
 
 " HTML
 call s:hi('htmlTagName', s:function, s:bg, s:none)

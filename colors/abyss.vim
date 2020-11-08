@@ -122,20 +122,29 @@ call s:hi('jinjaBlockName', s:source, s:bg, s:none)
 call s:hi('jinjaVariable', s:source, s:bg, s:none)
 call s:hi('jinjaString', s:string, s:bg, s:none)
 
-
 " PHP
 call s:hi('phpDefine', s:primary, s:bg, s:italic)
 call s:hi('phpIdentifier', s:source, s:bg, s:italic)
 call s:hi('phpVarSelector', s:source, s:bg, s:none)
 call s:hi('bladeKeyword', s:scalar, s:bg, s:none)
 
-
 " Javascript
 call s:hi('jsNull', s:scalar, s:bg, s:none)
 call s:hi('jsUndefined', s:scalar, s:bg, s:none)
+call s:hi('jsClassKeyword', s:primary, s:bg, s:none)
 call s:hi('jsFunction', s:primary, s:bg, s:none)
 call s:hi('jsFuncName', s:secondary, s:bg, s:none)
 call s:hi('jsArrowFunction', s:keyword, s:bg, s:none)
+call s:hi('jsonKeyword', s:source, s:bg, s:none)
+
+" Typescript
+call s:hi('typescriptBraces', s:source, s:bg, s:none)
+call s:hi('typescriptDecorator', s:primary, s:bg, s:none)
+call s:hi('typescriptImport', s:primary, s:bg, s:none)
+call s:hi('typescriptExport', s:primary, s:bg, s:none)
+
+" Java
+call s:hi('javaAnnotation', s:primary, s:bg, s:none)
 
 " HTML
 call s:hi('htmlTagName', s:keyword, s:bg, s:none)
@@ -143,11 +152,9 @@ call s:hi('htmlTag', s:keyword, s:bg, s:none)
 call s:hi('Identifier', s:keyword, s:bg, s:none)
 call s:hi('htmlArg', s:secondary, s:bg, s:none)
 
-
 " CSS
 call s:hi('cssProp', s:source, s:bg, s:none)
 call s:hi('cssBraces', s:source, s:bg, s:none)
-
 
 " Ruby
 call s:hi('rubyModule', s:primary, s:bg, s:none)
@@ -155,15 +162,12 @@ call s:hi('rubyDefine', s:primary, s:bg, s:none)
 call s:hi('rubyClass', s:primary, s:bg, s:none)
 call s:hi('rubyFunction', s:source, s:bg, s:none)
 
-
 " Vimscript syntax highlighting
 call s:hi('vimOption', s:source, s:bg, s:none)
-
 
 " NERDTree
 call s:hi('NERDTreeClosable', s:primary, s:bg, s:none)
 call s:hi('NERDTreeOpenable', s:primary, s:bg, s:none)
-
 
 " Hacks
 hi CursorLine cterm=none

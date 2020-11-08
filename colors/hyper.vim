@@ -135,14 +135,16 @@ call s:hi('jsNull', s:scalar, s:bg, s:none)
 call s:hi('jsUndefined', s:scalar, s:bg, s:none)
 call s:hi('jsFunction', s:primary, s:bg, s:none)
 call s:hi('jsFuncName', "#52adf2", s:bg, s:none)
+call s:hi('jsonKeyword', s:source, s:bg, s:none)
 
 " Java
 call s:hi('javaAnnotation', s:scalar, s:bg, s:none)
 
 " Typescript
 call s:hi('typescriptBraces', s:source, s:bg, s:none)
-call s:hi('typescriptDecorators', '#ef596f', s:bg, s:none)
-call s:hi('typescriptEndColons', s:source, s:bg, s:none)
+call s:hi('typescriptDecorator', s:scalar, s:bg, s:none)
+call s:hi('typescriptImport', s:primary, s:bg, s:none)
+call s:hi('typescriptExport', s:primary, s:bg, s:none)
 
 " HTML
 call s:hi('htmlTagName', '#ef596f', s:bg, s:none)

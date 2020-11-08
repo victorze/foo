@@ -151,8 +151,9 @@ call s:hi('jsonNull', s:source, s:bg, s:none)
 
 " Typescript
 call s:hi('typescriptBraces', s:source, s:bg, s:none)
-call s:hi('typescriptDecorators', '#ef596f', s:bg, s:none)
-call s:hi('typescriptEndColons', s:source, s:bg, s:none)
+call s:hi('typescriptDecorator', s:primary, s:bg, s:none)
+call s:hi('typescriptImport', s:primary, s:bg, s:none)
+call s:hi('typescriptExport', s:primary, s:bg, s:none)
 
 " HTML
 call s:hi('htmlTagName', s:primary, s:bg, s:none)
