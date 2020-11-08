@@ -1,19 +1,19 @@
 # Colorschemes for vim
 
-### hacker
-![hacker](https://raw.githubusercontent.com/victorze/foo/master/img/hacker.png)
-
-### mr-robot
-![mr-robot](https://raw.githubusercontent.com/victorze/foo/master/img/mr-robot_.png)
-
 ### hyper
-![hyper](https://raw.githubusercontent.com/victorze/foo/master/img/hyper_.png)
+![hyper](https://raw.githubusercontent.com/victorze/foo/master/img/_hyper.png)
 
 ### abyss
-![abyss](https://raw.githubusercontent.com/victorze/foo/master/img/abyss_.png)
+![abyss](https://raw.githubusercontent.com/victorze/foo/master/img/_abyss.png)
+
+### hacker
+![hacker](https://raw.githubusercontent.com/victorze/foo/master/img/_hacker.png)
+
+### mr-robot
+![mr-robot](https://raw.githubusercontent.com/victorze/foo/master/img/_mr-robot.png)
 
 ### github-old
-![github](https://raw.githubusercontent.com/victorze/foo/master/img/github_.png)
+![github](https://raw.githubusercontent.com/victorze/foo/master/img/_github-old.png)
 
 ## Installation
 1. Copy hacker.vim, mr-robot.vim, hyper.vim, abyss.vim and github-old.vim to
@@ -28,7 +28,7 @@ Plug 'victorze/foo'
 ```vim
 syntax enable
 set background=dark
-colorscheme hacker
+colorscheme hyper
 ```
 
 Note (for the github-old theme): If you are running Vim in a terminal you must choose a font that supports bold text.
