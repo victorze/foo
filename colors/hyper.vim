@@ -42,7 +42,7 @@ let s:comment       =   '#737c8c'
 
 
 " Syntax highlighting groups
-call s:hi('Comment', s:comment, s:bg, s:italic)
+call s:hi('Comment', s:comment, s:bg, s:none)
 call s:hi('Constant', s:primary, s:bg, s:none)
 call s:hi('String', s:string, s:bg, s:none)
 call s:hi('Character', s:string, s:bg, s:none)
