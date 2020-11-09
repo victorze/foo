@@ -102,7 +102,7 @@ call s:hi('NonText', s:comment, s:bg, s:none)
 call s:hi('CursorLineNr', s:source, s:bg, s:none)
 call s:hi('VertSplit', '#0d0d0d', s:bg, s:none)
 call s:hi('Title', s:scalar, s:bg, s:none)
-call s:hi('Pmenu', s:source, '#0d0d0d', s:none)
+call s:hi('Pmenu', s:source, '#1a1a1a', s:none)
 call s:hi('PmenuSel', s:bg, s:source, s:none)
 call s:hi('SpecialKey', s:source, s:bg, s:none)
 
