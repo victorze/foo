@@ -61,7 +61,7 @@ call s:hi('Operator', s:source, s:bg, s:none)
 call s:hi('Keyword', s:primary, s:bg, s:none)
 call s:hi('Exception', s:primary, s:bg, s:none)
 
-call s:hi('PreProc', s:source, s:bg, s:none)
+call s:hi('PreProc', s:primary, s:bg, s:none)
 call s:hi('Include', s:primary, s:bg, s:none)
 call s:hi('Define', s:source, s:bg, s:none)
 call s:hi('Macro', s:source, s:bg, s:none)
