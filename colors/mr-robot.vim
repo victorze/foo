@@ -116,7 +116,7 @@ call s:hi('SignColumn', s:source, s:bg, s:none)
 
 " Python syntax highlighting
 call s:hi('pythonFunction', s:source, s:bg, s:none)
-call s:hi('pythonBuiltin', s:primary, s:bg, s:none)
+call s:hi('pythonBuiltin', s:secondary, s:bg, s:none)
 call s:hi('pythonDecoratorName', s:scalar, s:bg, s:none)
 call s:hi('pythonDecorator', s:scalar, s:bg, s:none)
 call s:hi('pythonOperator', s:primary, s:bg, s:none)
