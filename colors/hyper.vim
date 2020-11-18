@@ -129,6 +129,7 @@ call s:hi('jinjaString', s:string, s:bg, s:none)
 call s:hi('phpDefine', s:primary, s:bg, s:none)
 call s:hi('phpIdentifier', s:source, s:bg, s:none)
 call s:hi('bladeKeyword', s:primary, s:bg, s:none)
+call s:hi('bladeDelimiter', s:source, s:bg, s:none)
 
 " Javascript
 call s:hi('jsNull', s:scalar, s:bg, s:none)
