@@ -139,6 +139,13 @@ call s:hi('jsFunction', s:primary, s:bg, s:none)
 call s:hi('jsFuncName', "#52adf2", s:bg, s:none)
 call s:hi('jsArrowFunction', s:source, s:bg, s:none)
 call s:hi('jsonKeyword', s:source, s:bg, s:none)
+call s:hi('javaScriptBraces', s:source, s:bg, s:none)
+
+" JSX (MaxMEllon/vim-jsx-pretty)
+call s:hi('jsxTagName', '#ef596f', s:bg, s:none)
+call s:hi('jsxAttrib', s:scalar, s:bg, s:none)
+call s:hi('jsxPunct', '#aab1c0', s:bg, s:none)
+call s:hi('jsxComponentName', s:primary, s:bg, s:none)
 
 " Java
 call s:hi('javaAnnotation', s:scalar, s:bg, s:none)
