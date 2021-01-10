@@ -150,6 +150,7 @@ call s:hi('jsxComponentName', s:primary, s:bg, s:none)
 
 " js (yuezk/vim-js)
 call s:hi('jsArrow', s:source, s:bg, s:none)
+call s:hi('jsVariableType', s:primary, s:bg, s:none)
 
 " Java
 call s:hi('javaAnnotation', s:scalar, s:bg, s:none)
