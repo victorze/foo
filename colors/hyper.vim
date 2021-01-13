@@ -146,7 +146,7 @@ call s:hi('jsxTagName', '#ef596f', s:bg, s:none)
 call s:hi('jsxAttrib', s:scalar, s:bg, s:none)
 call s:hi('jsxPunct', '#aab1c0', s:bg, s:none)
 call s:hi('jsxCloseString', '#aab1c0', s:bg, s:none)
-call s:hi('jsxComponentName', s:primary, s:bg, s:none)
+call s:hi('jsxComponentName', '#e5c07b', s:bg, s:none)
 
 " js (yuezk/vim-js)
 call s:hi('jsArrow', s:source, s:bg, s:none)
