@@ -171,7 +171,6 @@ call s:hi('htmlArg', s:scalar, s:bg, s:none)
 call s:hi('cssProp', s:source, s:bg, s:none)
 call s:hi('cssBraces', s:source, s:bg, s:none)
 
-
 " Ruby
 call s:hi('rubyModule', s:primary, s:bg, s:none)
 call s:hi('rubyDefine', s:primary, s:bg, s:none)
@@ -183,6 +182,9 @@ call s:hi('clojureSpecial', s:primary, s:bg, s:none)
 call s:hi('clojureDefine', s:primary, s:bg, s:none)
 call s:hi('clojureKeyword', s:source, s:bg, s:none)
 
+" Rust
+call s:hi('rustModPath', '#e5c07b', s:bg, s:none)
+call s:hi('rustEnumVariant', '#e5c07b', s:bg, s:none)"
 
 " Vimscript syntax highlighting
 call s:hi('vimOption', s:source, s:bg, s:none)
