@@ -64,7 +64,7 @@ call s:hi('Exception', s:primary, s:bg, s:none)
 call s:hi('PreProc', s:primary, s:bg, s:none)
 call s:hi('Include', s:primary, s:bg, s:none)
 call s:hi('Define', s:source, s:bg, s:none)
-call s:hi('Macro', s:source, s:bg, s:none)
+call s:hi('Macro', s:primary, s:bg, s:none)
 call s:hi('PreCondit', s:primary, s:bg, s:none)
 
 call s:hi('Type', '#e5c07b', s:bg, s:none)
@@ -102,7 +102,7 @@ call s:hi('NonText', s:comment, s:bg, s:none)
 call s:hi('CursorLineNr', s:source, s:bg, s:none)
 call s:hi('VertSplit', '#1a1a1a', s:bg, s:none)
 call s:hi('Title', s:scalar, s:bg, s:none)
-call s:hi('Pmenu', s:source, s:bg, s:none)
+call s:hi('Pmenu', s:source, '#1a1a1a', s:none)
 call s:hi('PmenuSel', s:bg, s:source, s:none)
 
 
