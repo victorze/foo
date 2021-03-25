@@ -78,7 +78,7 @@ call s:hi('Delimiter', s:source, s:bg, s:none)
 call s:hi('SpecialComment', s:comment, s:bg, s:none)
 call s:hi('Debug', s:primary, s:bg, s:none)
 call s:hi('Underlined', s:source, s:bg, s:underline)
-call s:hi('Todo', s:primary, s:bg, s:none)
+call s:hi('Todo', s:scalar, s:bg, s:none)
 call s:hi('Error', s:primary, s:bg, s:underline)
 call s:hi('ErrorMsg', s:primary, s:bg, s:none)
 call s:hi('Question', s:string, s:bg, s:none)
@@ -90,7 +90,6 @@ call s:hi('CursorLine', s:none, '#1a1a1a', s:none)
 call s:hi('CursorColumn', s:none, '#333333', s:none)
 call s:hi('MatchParen', s:source, '#333333', s:none)
 call s:hi('ColorColumn', s:source, '#1a1a1a', s:none)
-
 
 " Interface highlighting
 call s:hi('Normal', s:source, s:bg, s:none)
@@ -105,14 +104,12 @@ call s:hi('Title', s:scalar, s:bg, s:none)
 call s:hi('Pmenu', s:source, '#1a1a1a', s:none)
 call s:hi('PmenuSel', s:bg, s:source, s:none)
 
-
 " Git Gutter
 call s:hi('GitGutterAdd', s:source, s:bg, s:none)
 call s:hi('GitGutterChange', s:source, s:bg, s:none)
 call s:hi('GitGutterDelete', s:source, s:bg, s:none)
 call s:hi('GitGutterChangeDelete', s:source, s:bg, s:none)
 call s:hi('SignColumn', s:source, s:bg, s:none)
-
 
 " Python syntax highlighting
 call s:hi('pythonBuiltin', s:scalar, s:bg, s:none)
@@ -132,34 +129,21 @@ call s:hi('phpIdentifier', s:source, s:bg, s:none)
 call s:hi('bladeKeyword', s:primary, s:bg, s:none)
 call s:hi('bladeDelimiter', s:source, s:bg, s:none)
 
-" Javascript
-call s:hi('jsNull', s:scalar, s:bg, s:none)
-call s:hi('jsUndefined', s:scalar, s:bg, s:none)
-call s:hi('jsFunction', s:primary, s:bg, s:none)
-call s:hi('jsFuncName', "#52adf2", s:bg, s:none)
-call s:hi('jsArrowFunction', s:source, s:bg, s:none)
-call s:hi('jsonKeyword', s:source, s:bg, s:none)
+" " Javascript
+call s:hi('javaScriptIdentifier', s:primary, s:bg, s:none)
 call s:hi('javaScriptBraces', s:source, s:bg, s:none)
+call s:hi('javaScriptNull', s:scalar, s:bg, s:none)
+call s:hi('javaScriptFunction', s:primary, s:bg, s:none)
 
-" JSX (MaxMEllon/vim-jsx-pretty)
-call s:hi('jsxTagName', '#ef596f', s:bg, s:none)
-call s:hi('jsxAttrib', s:scalar, s:bg, s:none)
-call s:hi('jsxPunct', '#aab1c0', s:bg, s:none)
-call s:hi('jsxCloseString', '#aab1c0', s:bg, s:none)
-call s:hi('jsxComponentName', '#e5c07b', s:bg, s:none)
-
-" js (yuezk/vim-js)
-call s:hi('jsArrow', s:source, s:bg, s:none)
-call s:hi('jsVariableType', s:primary, s:bg, s:none)
+" " JSX (MaxMEllon/vim-jsx-pretty)
+" call s:hi('jsxTagName', '#ef596f', s:bg, s:none)
+" call s:hi('jsxAttrib', s:scalar, s:bg, s:none)
+" call s:hi('jsxPunct', '#aab1c0', s:bg, s:none)
+" call s:hi('jsxCloseString', '#aab1c0', s:bg, s:none)
+" call s:hi('jsxComponentName', '#e5c07b', s:bg, s:none)
 
 " Java
 call s:hi('javaAnnotation', s:scalar, s:bg, s:none)
-
-" Typescript
-call s:hi('typescriptBraces', s:source, s:bg, s:none)
-call s:hi('typescriptDecorator', s:scalar, s:bg, s:none)
-call s:hi('typescriptImport', s:primary, s:bg, s:none)
-call s:hi('typescriptExport', s:primary, s:bg, s:none)
 
 " HTML
 call s:hi('htmlTagName', '#ef596f', s:bg, s:none)
@@ -188,7 +172,6 @@ call s:hi('rustEnumVariant', '#e5c07b', s:bg, s:none)"
 
 " Vimscript syntax highlighting
 call s:hi('vimOption', s:source, s:bg, s:none)
-
 
 " NERDTree
 call s:hi('NERDTreeClosable', s:string, s:bg, s:none)
