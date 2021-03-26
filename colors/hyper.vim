@@ -40,6 +40,9 @@ let s:string        =   '#89ca78'
 
 let s:comment       =   '#737c8c'
 
+let s:red           =   '#ef596f'
+
+
 
 " Syntax highlighting groups
 call s:hi('Comment', s:comment, s:bg, s:none)
@@ -129,11 +132,16 @@ call s:hi('phpIdentifier', s:source, s:bg, s:none)
 call s:hi('bladeKeyword', s:primary, s:bg, s:none)
 call s:hi('bladeDelimiter', s:source, s:bg, s:none)
 
-" " Javascript
+" Javascript
 call s:hi('javaScriptIdentifier', s:primary, s:bg, s:none)
 call s:hi('javaScriptBraces', s:source, s:bg, s:none)
 call s:hi('javaScriptNull', s:scalar, s:bg, s:none)
 call s:hi('javaScriptFunction', s:primary, s:bg, s:none)
+
+" js (yuezk/vim-js)
+call s:hi('jsArrow', s:source, s:bg, s:none)
+call s:hi('jsVariableType', s:primary, s:bg, s:none)
+call s:hi('jsBuiltinValues', s:red, s:bg, s:none)
 
 " " JSX (MaxMEllon/vim-jsx-pretty)
 " call s:hi('jsxTagName', '#ef596f', s:bg, s:none)
@@ -146,7 +154,7 @@ call s:hi('javaScriptFunction', s:primary, s:bg, s:none)
 call s:hi('javaAnnotation', s:scalar, s:bg, s:none)
 
 " HTML
-call s:hi('htmlTagName', '#ef596f', s:bg, s:none)
+call s:hi('htmlTagName', s:red, s:bg, s:none)
 call s:hi('htmlTag', '#aab1c0', s:bg, s:none)
 call s:hi('Identifier', '#aab1c0', s:bg, s:none)
 call s:hi('htmlArg', s:scalar, s:bg, s:none)
