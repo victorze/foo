@@ -9,15 +9,9 @@
 ### hacker
 ![hacker](https://raw.githubusercontent.com/victorze/foo/master/img/_hacker.png)
 
-### mr-robot
-![mr-robot](https://raw.githubusercontent.com/victorze/foo/master/img/_mr-robot.png)
-
-### github-old
-![github](https://raw.githubusercontent.com/victorze/foo/master/img/_github-old.png)
-
 ## Installation
-1. Copy hacker.vim, mr-robot.vim, hyper.vim, abyss.vim and github-old.vim to
-your .vim/colors or install with [Plug](https://github.com/junegunn/vim-plug):
+1. Copy hyper.vim, hacker.vim and abyss.vim to your .vim/colors or install with
+[Plug](https://github.com/junegunn/vim-plug):
 
 ```vim
 Plug 'victorze/foo'
@@ -31,12 +25,15 @@ set background=dark
 colorscheme hyper
 ```
 
-Note (for the github-old theme): If you are running Vim in a terminal you must choose a font that supports bold text.
-
 ## Airline (optional)
 
 ```vim
 let g:airline_theme='distinguished'
+```
+
+## Highlight JavaScript Syntax (optional)
+```vim
+Plug 'yuezk/vim-js'
 ```
 
 ## Sintax template (optional)
