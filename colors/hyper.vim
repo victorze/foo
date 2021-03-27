@@ -41,7 +41,7 @@ let s:string        =   '#89ca78'
 let s:comment       =   '#737c8c'
 
 let s:red           =   '#ef596f'
-
+let s:yellow        =   '#e5c07b'
 
 
 " Syntax highlighting groups
@@ -142,6 +142,7 @@ call s:hi('javaScriptFunction', s:primary, s:bg, s:none)
 call s:hi('jsArrow', s:source, s:bg, s:none)
 call s:hi('jsVariableType', s:primary, s:bg, s:none)
 call s:hi('jsBuiltinValues', s:red, s:bg, s:none)
+call s:hi('jsClassName', s:yellow, s:bg, s:none)
 
 " " JSX (MaxMEllon/vim-jsx-pretty)
 " call s:hi('jsxTagName', '#ef596f', s:bg, s:none)
