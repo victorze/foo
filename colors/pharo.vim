@@ -31,6 +31,7 @@ let s:bg = '#212121'
 let s:green         =   '#08b065'
 let s:lightgreen    =   '#a7ce67'
 let s:lightblue     =   '#66b5bc'
+let s:red           =   '#cc7268'
 
 let s:primary       =   s:lightgreen
 let s:secondary     =   s:lightgreen
@@ -81,8 +82,8 @@ call s:hi('SpecialComment', s:comment, s:bg, s:none)
 call s:hi('Debug', s:primary, s:bg, s:none)
 call s:hi('Underlined', s:source, s:bg, s:underline)
 call s:hi('Todo', s:scalar, s:bg, s:none)
-call s:hi('Error', s:primary, s:bg, s:underline)
-call s:hi('ErrorMsg', s:primary, s:bg, s:none)
+call s:hi('Error', s:red, s:bg, s:underline)
+call s:hi('ErrorMsg', s:red, s:bg, s:none)
 call s:hi('Question', s:string, s:bg, s:none)
 call s:hi('WarningMsg', s:primary, s:none, s:none)
 call s:hi('Search', s:bg, s:source, s:none)
@@ -91,7 +92,7 @@ call s:hi('Directory', s:lightblue, s:bg, s:none)
 call s:hi('CursorLine', s:none, '#292929', s:none)
 call s:hi('CursorColumn', s:none, '#333333', s:none)
 call s:hi('MatchParen', s:none, '#474747', s:none)
-call s:hi('ColorColumn', s:source, '#292929', s:none)
+call s:hi('ColorColumn', s:none, '#292929', s:none)
 
 " Interface highlighting
 call s:hi('Normal', s:source, s:bg, s:none)
@@ -145,24 +146,25 @@ call s:hi('jsBuiltinValues', s:green, s:bg, s:none)
 call s:hi('jsClassName', s:lightblue, s:bg, s:none)
 
 " " JSX (MaxMEllon/vim-jsx-pretty)
-call s:hi('jsxTagName', s:lightblue, s:bg, s:none)
-call s:hi('jsxAttrib', s:lightgreen, s:bg, s:none)
-call s:hi('jsxPunct', s:lightblue, s:bg, s:none)
-call s:hi('jsxCloseString', s:lightblue, s:bg, s:none)
+call s:hi('jsxTagName', s:lightgreen, s:bg, s:none)
+call s:hi('jsxAttrib', s:lightblue, s:bg, s:none)
+call s:hi('jsxPunct', s:comment, s:bg, s:none)
+call s:hi('jsxCloseString', s:comment, s:bg, s:none)
 call s:hi('jsxComponentName', s:green, s:bg, s:none)
 
 " Java
-call s:hi('javaAnnotation', s:scalar, s:bg, s:none)
+call s:hi('javaAnnotation', s:green, s:bg, s:none)
 
 " HTML
-call s:hi('htmlTagName', s:lightblue, s:bg, s:none)
-call s:hi('htmlTag', s:lightblue, s:bg, s:none)
-call s:hi('Identifier', s:lightblue, s:bg, s:none)
-call s:hi('htmlArg', s:lightgreen, s:bg, s:none)
+call s:hi('htmlTagName', s:lightgreen, s:bg, s:none)
+call s:hi('htmlTag', s:comment, s:bg, s:none)
+call s:hi('Identifier', s:comment, s:bg, s:none)
+call s:hi('htmlArg', s:lightblue, s:bg, s:none)
 
 " CSS
 call s:hi('cssProp', s:source, s:bg, s:none)
 call s:hi('cssBraces', s:source, s:bg, s:none)
+call s:hi('cssColor', s:scalar, s:bg, s:none)
 
 " Ruby
 call s:hi('rubyModule', s:primary, s:bg, s:none)
