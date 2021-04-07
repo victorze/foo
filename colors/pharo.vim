@@ -117,8 +117,8 @@ call s:hi('SignColumn', s:source, s:bg, s:none)
 
 " Python syntax highlighting
 call s:hi('pythonBuiltin', s:green, s:bg, s:none)
-call s:hi('pythonDecoratorName', s:scalar, s:bg, s:none)
-call s:hi('pythonDecorator', s:scalar, s:bg, s:none)
+call s:hi('pythonDecoratorName', s:green, s:bg, s:none)
+call s:hi('pythonDecorator', s:green, s:bg, s:none)
 call s:hi('pythonOperator', s:primary, s:bg, s:none)
 call s:hi('jinjaTagDelim', s:green, s:bg, s:none)
 call s:hi('jinjaVarBlock', s:green, s:bg, s:none)
