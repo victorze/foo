@@ -53,7 +53,7 @@ call s:hi('Number', s:scalar, s:bg, s:none)
 call s:hi('Boolean', s:scalar, s:bg, s:none)
 call s:hi('Float', s:scalar, s:bg, s:none)
 
-call s:hi('Identifier', s:primary, s:bg, s:none)
+call s:hi('Identifier', s:lightblue, s:bg, s:none)
 call s:hi('Function', s:lightblue, s:bg, s:none)
 
 call s:hi('Statement', s:secondary, s:bg, s:none)
@@ -158,7 +158,7 @@ call s:hi('javaAnnotation', s:green, s:bg, s:none)
 " HTML
 call s:hi('htmlTagName', s:lightgreen, s:bg, s:none)
 call s:hi('htmlTag', s:comment, s:bg, s:none)
-call s:hi('Identifier', s:comment, s:bg, s:none)
+call s:hi('htmlEndTag', s:comment, s:bg, s:none)
 call s:hi('htmlArg', s:lightblue, s:bg, s:none)
 
 " CSS
@@ -195,4 +195,3 @@ hi Identifier cterm=none
 if has("gui_win32")
     call s:hi('Cursor', s:bg, s:string, s:none)
 endif
-
