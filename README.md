@@ -1,5 +1,8 @@
 # Colorschemes for vim
 
+### pharo
+![hyper](https://raw.githubusercontent.com/victorze/foo/master/img/pharo.png)
+
 ### hyper
 ![hyper](https://raw.githubusercontent.com/victorze/foo/master/img/_hyper.png)
 
@@ -10,7 +13,7 @@
 ![hacker](https://raw.githubusercontent.com/victorze/foo/master/img/_hacker.png)
 
 ## Installation
-1. Copy hyper.vim, hacker.vim and abyss.vim to your .vim/colors or install with
+1. Copy pharo.vim, hyper.vim, hacker.vim and abyss.vim to your .vim/colors or install with
 [Plug](https://github.com/junegunn/vim-plug):
 
 ```vim
@@ -22,7 +25,7 @@ Plug 'victorze/foo'
 ```vim
 syntax enable
 set background=dark
-colorscheme hyper
+colorscheme pharo
 ```
 
 ## Airline (optional)
@@ -37,6 +40,12 @@ Plug 'yuezk/vim-js'
 ```
 
 ## Sintax template (optional)
+
+- Highlight the JSX syntax
+
+```vim
+Plug 'maxmellon/vim-jsx-pretty'
+```
 
 - jinja2 and django template install plugin:
 
