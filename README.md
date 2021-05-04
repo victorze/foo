@@ -1,10 +1,10 @@
 # Colorschemes for vim
 
-### pharo
-![hyper](https://raw.githubusercontent.com/victorze/foo/master/img/pharo.png)
-
 ### hyper
 ![hyper](https://raw.githubusercontent.com/victorze/foo/master/img/_hyper.png)
+
+### pharo
+![hyper](https://raw.githubusercontent.com/victorze/foo/master/img/pharo.png)
 
 ### abyss
 ![abyss](https://raw.githubusercontent.com/victorze/foo/master/img/_abyss.png)
@@ -25,7 +25,7 @@ Plug 'victorze/foo'
 ```vim
 syntax enable
 set background=dark
-colorscheme pharo
+colorscheme hyper
 ```
 
 ## Airline (optional)

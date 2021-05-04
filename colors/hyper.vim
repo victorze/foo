@@ -145,11 +145,11 @@ call s:hi('jsBuiltinValues', s:red, s:bg, s:none)
 call s:hi('jsClassName', s:yellow, s:bg, s:none)
 
 " " JSX (MaxMEllon/vim-jsx-pretty)
-" call s:hi('jsxTagName', '#ef596f', s:bg, s:none)
-" call s:hi('jsxAttrib', s:scalar, s:bg, s:none)
-" call s:hi('jsxPunct', '#aab1c0', s:bg, s:none)
-" call s:hi('jsxCloseString', '#aab1c0', s:bg, s:none)
-" call s:hi('jsxComponentName', '#e5c07b', s:bg, s:none)
+call s:hi('jsxTagName', '#ef596f', s:bg, s:none)
+call s:hi('jsxAttrib', s:scalar, s:bg, s:none)
+call s:hi('jsxPunct', '#aab1c0', s:bg, s:none)
+call s:hi('jsxCloseString', '#aab1c0', s:bg, s:none)
+call s:hi('jsxComponentName', '#e5c07b', s:bg, s:none)
 
 " Java
 call s:hi('javaAnnotation', s:scalar, s:bg, s:none)
