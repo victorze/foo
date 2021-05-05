@@ -161,8 +161,8 @@ call s:hi('javaAnnotation', s:primary, s:bg, s:none)
 
 " HTML
 call s:hi('htmlTagName', s:keyword, s:bg, s:none)
-call s:hi('htmlTag', s:keyword, s:bg, s:none)
-call s:hi('Identifier', s:keyword, s:bg, s:none)
+call s:hi('htmlTag','#6688cc', s:bg, s:none)
+call s:hi('htmlEndTag', '#6688cc', s:bg, s:none)
 call s:hi('htmlArg', s:secondary, s:bg, s:none)
 
 " CSS
@@ -189,4 +189,3 @@ hi Identifier cterm=none
 if has("gui_win32")
     call s:hi('Cursor', s:source, s:primary, s:none)
 endif
-
