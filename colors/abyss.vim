@@ -33,8 +33,9 @@ let s:primary       =   '#9966b8'
 let s:secondary     =   '#ddbb88'
 
 let s:source        =   '#bbbbbb'
-let s:keyword       =   '#4077ad'
+" let s:keyword       =   '#4077ad'
 " let s:keyword       =   '#225588'
+let s:keyword       =   '#24598f'
 let s:structure     =   s:primary
 let s:scalar        =   '#f280d0'
 let s:string        =   '#22aa44'
@@ -51,7 +52,7 @@ call s:hi('Number', s:scalar, s:bg, s:none)
 call s:hi('Boolean', s:scalar, s:bg, s:none)
 call s:hi('Float', s:scalar, s:bg, s:none)
 
-call s:hi('Identifier', s:primary, s:bg, s:none)
+call s:hi('Identifier', s:source, s:bg, s:none)
 call s:hi('Function', s:secondary, s:bg, s:none)
 
 call s:hi('Statement', s:keyword, s:bg, s:none)
@@ -62,7 +63,7 @@ call s:hi('Operator', s:keyword, s:bg, s:none)
 call s:hi('Keyword', s:keyword, s:bg, s:none)
 call s:hi('Exception', s:keyword, s:bg, s:none)
 
-call s:hi('PreProc', s:source, s:bg, s:none)
+call s:hi('PreProc', s:keyword, s:bg, s:none)
 call s:hi('Include', s:primary, s:bg, s:none)
 call s:hi('Define', s:source, s:bg, s:none)
 call s:hi('Macro', s:source, s:bg, s:none)
@@ -95,7 +96,7 @@ call s:hi('Normal', s:source, s:bg, s:none)
 call s:hi('Visual', s:none, '#26305a', s:none)
 call s:hi('Cursor', s:none, s:bg, s:none)
 call s:hi('iCursor', s:none, s:bg, s:none)
-call s:hi('LineNr', s:comment, s:bg, s:none)
+call s:hi('LineNr', '#26305a', s:bg, s:none)
 call s:hi('NonText', s:comment, s:bg, s:none)
 call s:hi('CursorLineNr', '#80a2c2', s:bg, s:none)
 call s:hi('VertSplit', '#001a33', s:bg, s:none)
@@ -130,13 +131,24 @@ call s:hi('phpVarSelector', s:source, s:bg, s:none)
 call s:hi('bladeKeyword', s:scalar, s:bg, s:none)
 
 " Javascript
-call s:hi('jsNull', s:scalar, s:bg, s:none)
-call s:hi('jsUndefined', s:scalar, s:bg, s:none)
-call s:hi('jsClassKeyword', s:primary, s:bg, s:none)
-call s:hi('jsFunction', s:primary, s:bg, s:none)
-call s:hi('jsFuncName', s:secondary, s:bg, s:none)
-call s:hi('jsArrowFunction', s:keyword, s:bg, s:none)
-call s:hi('jsonKeyword', s:source, s:bg, s:none)
+call s:hi('javaScriptIdentifier', s:primary, s:bg, s:none)
+call s:hi('javaScriptBraces', s:source, s:bg, s:none)
+call s:hi('javaScriptNull', s:scalar, s:bg, s:none)
+call s:hi('javaScriptFunction', s:primary, s:bg, s:none)
+call s:hi('jsFunctionCall', s:source, s:bg, s:none)
+
+" js (yuezk/vim-js)
+call s:hi('jsArrow', s:source, s:bg, s:none)
+call s:hi('jsVariableType', s:primary, s:bg, s:none)
+call s:hi('jsBuiltinValues', s:secondary, s:bg, s:none)
+call s:hi('jsClassName', s:secondary, s:bg, s:none)
+
+" " JSX (MaxMEllon/vim-jsx-pretty)
+call s:hi('jsxTagName', s:keyword, s:bg, s:none)
+call s:hi('jsxAttrib', s:secondary, s:bg, s:none)
+call s:hi('jsxPunct', '#6688cc', s:bg, s:none)
+call s:hi('jsxCloseString', '#6688cc', s:bg, s:none)
+call s:hi('jsxComponentName', s:primary, s:bg, s:none)
 
 " Typescript
 call s:hi('typescriptBraces', s:source, s:bg, s:none)
