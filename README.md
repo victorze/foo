@@ -3,14 +3,14 @@
 ### hyper
 ![hyper](https://raw.githubusercontent.com/victorze/foo/master/img/_hyper.png)
 
-### pharo
-![hyper](https://raw.githubusercontent.com/victorze/foo/master/img/pharo.png)
-
 ### abyss
 ![abyss](https://raw.githubusercontent.com/victorze/foo/master/img/_abyss.png)
 
 ### hacker
 ![hacker](https://raw.githubusercontent.com/victorze/foo/master/img/_hacker.png)
+
+### pharo
+![hyper](https://raw.githubusercontent.com/victorze/foo/master/img/pharo.png)
 
 ## Installation
 1. Copy pharo.vim, hyper.vim, hacker.vim and abyss.vim to your .vim/colors or install with
