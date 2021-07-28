@@ -137,6 +137,8 @@ call s:hi('javaScriptIdentifier', s:primary, s:bg, s:none)
 call s:hi('javaScriptBraces', s:source, s:bg, s:none)
 call s:hi('javaScriptNull', s:scalar, s:bg, s:none)
 call s:hi('javaScriptFunction', s:primary, s:bg, s:none)
+call s:hi('jsOperator', s:primary, s:bg, s:none)
+call s:hi('jsDop', s:source, s:bg, s:none)
 
 " js (yuezk/vim-js)
 call s:hi('jsArrow', s:source, s:bg, s:none)
