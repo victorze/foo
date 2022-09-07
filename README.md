@@ -13,8 +13,8 @@
 ![hyper](https://raw.githubusercontent.com/victorze/foo/master/img/pharo.png)
 
 ## Installation
-1. Copy pharo.vim, hyper.vim, hacker.vim and abyss.vim to your .vim/colors or install with
-[Plug](https://github.com/junegunn/vim-plug):
+1. Copy oceanic.vim, hyper.vim, hacker.vim, abyss.vim, pharo.vim and off.vim to
+your .vim/colors or install with [Plug](https://github.com/junegunn/vim-plug):
 
 ```vim
 Plug 'victorze/foo'
