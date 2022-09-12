@@ -1,5 +1,8 @@
 # Colorschemes for vim
 
+### oceanic
+![oceanic](https://raw.githubusercontent.com/victorze/foo/master/img/oceanic.png)
+
 ### hyper
 ![hyper](https://raw.githubusercontent.com/victorze/foo/master/img/_hyper.png)
 
@@ -10,7 +13,10 @@
 ![hacker](https://raw.githubusercontent.com/victorze/foo/master/img/_hacker.png)
 
 ### pharo
-![hyper](https://raw.githubusercontent.com/victorze/foo/master/img/pharo.png)
+![pharo](https://raw.githubusercontent.com/victorze/foo/master/img/pharo.png)
+
+### off
+![off](https://raw.githubusercontent.com/victorze/foo/master/img/off.png)
 
 ## Installation
 1. Copy oceanic.vim, hyper.vim, hacker.vim, abyss.vim, pharo.vim and off.vim to
