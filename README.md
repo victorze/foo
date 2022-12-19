@@ -3,8 +3,6 @@
 ### oceanic
 ![oceanic](https://raw.githubusercontent.com/victorze/foo/master/img/oceanic.png)
 
-![oceanic-react](https://raw.githubusercontent.com/victorze/foo/master/img/oceanic-react.png)
-
 ### hyper
 ![hyper](https://raw.githubusercontent.com/victorze/foo/master/img/_hyper.png)
 
